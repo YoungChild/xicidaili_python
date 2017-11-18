@@ -42,7 +42,7 @@ for tr in trs:
 x = 0
 for i in xrange(sum_agent):
     time.sleep(random.random()*3)
-    url_test_IP = 'http://blog.csdn.net/ztsghjls/article/details/64438684'
+    url_test_IP = 'http://www.baidu.com'
     IP = 'http://'+items[i].IP.encode('utf-8')+':'+items[i].Port.encode('utf-8')
     headers = {'User-Agent': fa.random}
     proxies = {'http': IP,
